@@ -10,17 +10,17 @@ cards.forEach(card => {
 
 function selectDepartment(deptName) {
     localStorage.setItem("selectedDept", deptName);
-    window.location.href = "years.html";
+    window.location.href = "../html/years.html";
 }
 
 function selectYear(yearNumber) {
     localStorage.setItem("selectedYear", yearNumber);
-    window.location.href = "subjects.html";
+    window.location.href = "../html/subjects.html";
 }
 
 function startQuiz(subjectName) {
     localStorage.setItem("selectedSubject", subjectName);
-    window.location.href = "quiz.html";
+    window.location.href = "../html/quiz.html";
 }
 
 async function loadSubjects() {
@@ -49,7 +49,7 @@ async function loadSubjects() {
               <div class="card" style="display: flex; flex-direction: column; ">
                     <h3>${subjectName}</h3>
                     <p style="color: #020202; font-weight: bold; margin-top: auto; align-self: center;">Department: ${department} | Year: ${year}</p>
-                    <img src="etf_logo.png" alt="Etf Logo"
+                    <img src="../img/etf_logo.png" alt="Etf Logo"
                 style="width: 180px;  align-self: center;   margin-top: auto;    height: auto;       margin-bottom: 20px;">
                     <button onclick="startQuiz('${subjectName}')" style="margin-top: auto; align-self: center; border-radius: 15px; padding: 10px 25px; transition: 0.3s; cursor: pointer; background-color: #1f3246; color: white;">  Start Quiz  </button>
                 </div>
@@ -150,7 +150,7 @@ function checkAnswer(correctAnswer) {
         feedback.textContent = "Correct! +10 points";
         feedback.style.color = "green";
         
-        // Sakrivam skip dugme kad pogodi, pokaži Next ili Finish
+        // sakrivam skip dugme kad pogodi, pokaži Next ili Finish
         document.getElementById("skipBtn").style.display = "none";
         if (nextBtn) nextBtn.style.display = "inline-block";
         if (finishBtn) finishBtn.style.display = "inline-block";
@@ -174,18 +174,17 @@ function showFinalScore() {
             <p style="font-size: 1.5rem; margin: 20px 0;">Your total score is: <strong>${score}</strong></p>
             <p style="margin-bottom: 30px; font-size: 1.1rem;">Accuracy: ${percentage}%</p>
             
-            <button onclick="location.href='subjects.html'">Back to Subjects</button>
+            <button onclick="location.href='../html/subjects.html'">Back to Subjects</button>
             <button onclick="location.reload()" >Restart Quiz</button>
         </div>
     `;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // ako postoji kontejner za predmete, ucitamo predmete
     if (document.getElementById("subjects-container")) {
         loadSubjects();
     }
-    // ako postoji kontejner za kviz, ucitamo kviz
+   
     if (document.getElementById("quiz-container")) {
         loadQuiz();
     }
