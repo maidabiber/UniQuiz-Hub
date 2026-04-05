@@ -14,7 +14,7 @@ Ideja iza **UniQuiz Hub-a** je da se olakša učenje kroz interaktivne kvizove. 
 
 ---
 
-## Tehnički Detalji (Verzija 1.0)
+## Tehnički Detalji
 
 Aplikacija je izgrađena  koristeći:
 
