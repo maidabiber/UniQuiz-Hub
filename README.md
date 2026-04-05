@@ -1,6 +1,6 @@
 #  UniQuiz Hub - ETF Sarajevo
 
-Ovo je moj **samostalni projekat** koji trenutno razvijam u slobodno vrijeme nakon što sam stekla osnovna znanja na predmetu **Web tehnologije**. 
+**Projekat u razvoju.** Ovo je moj **samostalni projekat** koji razvijam u slobodno vrijeme nakon što sam stekla osnovna znanja na predmetu **Web tehnologije**. 
 
 ---
 
