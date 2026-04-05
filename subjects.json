@@ -1,0 +1,58 @@
+{
+    "RI": {
+        "1": [
+            "Engineering Mathematics",
+            "Introduction to Programming",
+            "Linear Algebra and Geometry",
+            "Basics of Electrical Engineering",
+            "Programming Techniques",
+            "Mathematical Logic and Theory of Computability",
+            "Probability and Statistics",
+            "Operating Systems"
+        ],
+        "2": ["Algorithms and Data Structures", "Computer Architecture", "Database Systems"],
+        "3": ["Software Engineering", "Web Technologies", "Artificial Intelligence"]
+    },
+    "EE": {
+        "1": ["OET 1", "Engineering Mathematics 1", "Physics"],
+        "2": ["Electrical Machines", "Power Systems"],
+        "3": [
+            "Power Plants", 
+            "High Voltage Engineering", 
+            "Relay Protection", 
+            "Electric Drive Systems"
+        ]
+    },
+    "TK": {
+        "1": ["Introduction to Telecom", "Math 1"],
+        "2": ["Signals and Systems"],
+        "3": [
+            "Mobile Communications", 
+            "Information Theory and Coding", 
+            "Optical Communications", 
+            "Network Protocols"
+        ]
+    },
+    "AE": {
+        "1": [
+            "Engineering Mathematics 1",
+            "Linear Algebra and Geometry",
+            "Basics of Electrical Engineering",
+            "Physics 1",
+            "Introduction to Programming",
+            "Engineering Mathematics 2"
+        ],
+        "2": [
+            "Signals and Systems",
+            "Electronic Components",
+            "Automation Fundamentals",
+            "Electrical Measurements"
+        ],
+        "3": [
+            "Automatic Control",
+            "Microprocessor Systems",
+            "Robotics",
+            "Industrial Automation"
+        ]
+    }
+}

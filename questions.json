@@ -1,0 +1,159 @@
+{
+  "Engineering Mathematics": [
+    { "question": "What is the derivative of x^2?", "answer": "2x" },
+    { "question": "Is the integral of cos(x) equal to sin(x)? (yes/no)", "answer": "yes" },
+    { "question": "What is the derivative of ln(x)?", "answer": "1/x" }
+  ],
+  "Introduction to Programming": [
+    { "question": "Which symbol is used for the 'modulo' operator in C++?", "answer": "%" },
+    { "question": "Does an array index start from 0 or 1?", "answer": "0" },
+    { "question": "What keyword is used to return a value from a function?", "answer": "return" }
+  ],
+  "Linear Algebra and Geometry": [
+    { "question": "What is the determinant of an Identity matrix?", "answer": "1" },
+    { "question": "If a matrix has a determinant of 0, is it invertible? (yes/no)", "answer": "no" }
+  ],
+  "Basics of Electrical Engineering": [
+    { "question": "What is the unit of electrical current?", "answer": "Ampere" },
+    { "question": "According to Ohm's law, V is equal to I times what?", "answer": "R" }
+  ],
+  "Programming Techniques": [
+    { "question": "What keyword is used for dynamic memory allocation in C++?", "answer": "new" },
+    { "question": "What is a pointer that points to nothing called?", "answer": "nullptr" }
+  ],
+  "Mathematical Logic and Theory of Computability": [
+    { "question": "Is 'P implies Q' false only when P is true and Q is false? (yes/no)", "answer": "yes" },
+    { "question": "What is the result of 'A AND (NOT A)'?", "answer": "false" }
+  ],
+  "Probability and Statistics": [
+    { "question": "What is the probability of a certain event?", "answer": "1" },
+    { "question": "What is the average value of a data set called?", "answer": "mean" }
+  ],
+  "Operating Systems": [
+    { "question": "What is the state of a process waiting for CPU called?", "answer": "Ready" },
+    { "question": "What is a situation where two processes wait for each other indefinitely?", "answer": "deadlock" }
+  ],
+  "Algorithms and Data Structures": [
+    { "question": "What is the average time complexity of QuickSort?", "answer": "O(n log n)" },
+    { "question": "Which data structure uses LIFO (Last-In-First-Out)?", "answer": "stack" }
+  ],
+  "Computer Architecture": [
+    { "question": "What does ALU stand for?", "answer": "Arithmetic Logic Unit" },
+    { "question": "Which type of memory is volatile, RAM or ROM?", "answer": "RAM" }
+  ],
+  "Database Systems": [
+    { "question": "Which SQL command is used to fetch data?", "answer": "SELECT" },
+    { "question": "What does SQL stand for?", "answer": "Structured Query Language" }
+  ],
+  "Software Engineering": [
+    { "question": "What does the 'S' in SOLID principles stand for?", "answer": "Single responsibility" },
+    { "question": "What is the most popular 'Agile' framework?", "answer": "Scrum" }
+  ],
+  "Web Technologies": [
+    { "question": "Which tag is used for the largest heading in HTML?", "answer": "h1" },
+    { "question": "What does CSS stand for?", "answer": "Cascading Style Sheets" }
+  ],
+  "Artificial Intelligence": [
+    { "question": "What is the common activation function in Neural Networks?", "answer": "ReLU" },
+    { "question": "What type of learning uses labeled data?", "answer": "supervised" }
+  ],
+  "OET 1": [
+    { "question": "What is the unit for capacitance?", "answer": "Farad" },
+    { "question": "What is the unit of resistance?", "answer": "Ohm" }
+  ],
+  "Engineering Mathematics 1": [
+    { "question": "Is the limit of 1/x as x goes to infinity 0? (yes/no)", "answer": "yes" },
+    { "question": "What is the derivative of e^x?", "answer": "e^x" }
+  ],
+  "Physics": [
+    { "question": "What is the unit of energy?", "answer": "Joule" },
+    { "question": "What is the speed of light in a vacuum (approx m/s)?", "answer": "300000000" }
+  ],
+  "Electrical Machines": [
+    { "question": "Does a transformer work with DC current? (yes/no)", "answer": "no" },
+    { "question": "What part of a DC motor rotates?", "answer": "rotor" }
+  ],
+  "Power Systems": [
+    { "question": "What is the standard frequency of the power grid in Europe (Hz)?", "answer": "50" },
+    { "question": "Is aluminum or copper more commonly used for long distance power lines?", "answer": "aluminum" }
+  ],
+  "Power Plants": [
+    { "question": "Which energy source is used in Hydroelectric plants?", "answer": "Water" },
+    { "question": "What is the main component of a nuclear reactor core?", "answer": "uranium" }
+  ],
+  "High Voltage Engineering": [
+    { "question": "What is the most common insulator used in power lines?", "answer": "Porcelain" },
+    { "question": "What gas is commonly used for insulation in high-voltage switchgear?", "answer": "SF6" }
+  ],
+  "Relay Protection": [
+    { "question": "Does a relay protect the system from short circuits? (yes/no)", "answer": "yes" },
+    { "question": "What device disconnects a circuit during a fault?", "answer": "circuit breaker" }
+  ],
+  "Electric Drive Systems": [
+    { "question": "Which device converts DC to AC?", "answer": "Inverter" },
+    { "question": "What does VFD stand for?", "answer": "Variable Frequency Drive" }
+  ],
+  "Introduction to Telecom": [
+    { "question": "What does modulation do to a signal?", "answer": "Shifts frequency" },
+    { "question": "What is the unit of frequency?", "answer": "Hertz" }
+  ],
+  "Math 1": [
+    { "question": "Is pi a rational number? (yes/no)", "answer": "no" },
+    { "question": "What is the square root of 81?", "answer": "9" }
+  ],
+  "Signals and Systems": [
+    { "question": "What is the unit impulse function also called?", "answer": "Dirac" },
+    { "question": "Is a system that depends only on present and past inputs called 'causal'? (yes/no)", "answer": "yes" }
+  ],
+  "Mobile Communications": [
+    { "question": "What does GSM stand for?", "answer": "Global System for Mobile" },
+    { "question": "Which generation of mobile networks introduced LTE?", "answer": "4G" }
+  ],
+  "Information Theory and Coding": [
+    { "question": "What is the unit of Information?", "answer": "Bit" },
+    { "question": "What is the maximum rate of data transfer over a channel called?", "answer": "capacity" }
+  ],
+  "Optical Communications": [
+    { "question": "What phenomenon keeps light inside an optical fiber?", "answer": "Total internal reflection" },
+    { "question": "Which light source is most commonly used in fiber optics?", "answer": "Laser" }
+  ],
+  "Network Protocols": [
+    { "question": "Which protocol is used for sending emails?", "answer": "SMTP" },
+    { "question": "What protocol is used to translate domain names to IP addresses?", "answer": "DNS" }
+  ],
+  "Physics 1": [
+    { "question": "What is Newton's second law formula?", "answer": "F=ma" },
+    { "question": "What is the value of gravitational acceleration on Earth (approx)?", "answer": "9.81" }
+  ],
+  "Engineering Mathematics 2": [
+    { "question": "Is a double integral used to calculate area or volume?", "answer": "Volume" },
+    { "question": "What is the integral of 1/x?", "answer": "ln(x)" }
+  ],
+  "Electronic Components": [
+    { "question": "What is the main material used for semiconductors?", "answer": "Silicon" },
+    { "question": "Which component allows current to flow in only one direction?", "answer": "Diode" }
+  ],
+  "Automation Fundamentals": [
+    { "question": "What is the 'brain' of an automated system called?", "answer": "Controller" },
+    { "question": "What does SCADA stand for?", "answer": "Supervisory Control and Data Acquisition" }
+  ],
+  "Electrical Measurements": [
+    { "question": "Which instrument measures electrical current?", "answer": "Ammeter" },
+    { "question": "Which instrument measures electrical potential difference?", "answer": "Voltmeter" }
+  ],
+  "Automatic Control": [
+    { "question": "What does PID stand for?", "answer": "Proportional Integral Derivative" },
+    { "question": "What is a system where the output is fed back into the input?", "answer": "closed-loop" }
+  ],
+  "Microprocessor Systems": [
+    { "question": "What is the smallest unit of data in a computer?", "answer": "Bit" },
+    { "question": "How many bits are in a Byte?", "answer": "8" }
+  ],
+  "Industrial Automation": [
+    { "question": "What does PLC stand for?", "answer": "Programmable Logic Controller" },
+    { "question": "What is the most common programming language for PLCs?", "answer": "Ladder Logic" }
+  ],
+  "Robotics": [
+    { "question": "What are the individual joints of a robot arm called?", "answer": "degrees of freedom" }
+  ]
+}
