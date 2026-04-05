@@ -14,19 +14,19 @@ Ideja iza **UniQuiz Hub-a** je da se olakša učenje kroz interaktivne kvizove. 
 
 ---
 
-## 🛠️ Tehnički Detalji (Verzija 1.0)
+## Tehnički Detalji (Verzija 1.0)
 
-Aplikacija je trenutno u fazi funkcionalnog prototipa (MVP) i izgrađena je koristeći:
+Aplikacija je izgrađena  koristeći:
 
 * **Frontend:** Vanilla JavaScript, HTML5 i CSS3.
 * **Backend:** Node.js i Express.js za upravljanje rutama i serviranje podataka.
 * **Skladištenje podataka:** Lokalni **JSON** fajlovi (trenutno rješenje, nakon čega slijedi prelazak na SQL bazu).
 
 ### Glavne funkcionalnosti:
-- [x] Odabir predmeta po godinama i odsjecima.
-- [x] Dinamičko učitavanje pitanja bez osvježavanja stranice (Fetch API).
-- [x] Sistem bodovanja i kalkulacija procenta tačnosti.
-- [x] "Skip" opcija za preskakanje pitanja.
+- Odabir predmeta po godinama i odsjecima.
+- Dinamičko učitavanje pitanja bez osvježavanja stranice (Fetch API).
+- Sistem bodovanja i kalkulacija procenta tačnosti.
+- "Skip" opcija za preskakanje pitanja.
 
 ---
 
